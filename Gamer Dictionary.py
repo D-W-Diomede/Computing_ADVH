@@ -4,15 +4,15 @@
 import time
 
 # DICTIONARY #
-
+# THIS COMMENT DID NOT EXIST BEFORE
 gamer = {"gg":"Good Game.  A gesture of good sportsmanship","ezpz":"Short for easy peasy. Toxic people use this."}
-
+# THIS COMMENT DID NOT EXIST BEFORE
 # FUNCTIONS #
-
+# THIS COMMENT DID NOT EXIST BEFORE
 def cleanScreen():
     import os
     os.system('cls')
-
+# THIS COMMENT DID NOT EXIST BEFORE
 def displayOptions():
     # DISPLAY FRONT END#
     time.sleep(5)
@@ -25,17 +25,17 @@ def displayOptions():
     4 - Delete a Gamer Term
     5 - Display Full Dictionary
     """)
-    
-
+# THIS COMMENT DID NOT EXIST BEFORE
+# THIS COMMENT DID NOT EXIST BEFORE
 def chooseOption():
     choice = input(" Choice: ")
     print()
-
+# THIS COMMENT DID NOT EXIST BEFORE
     #QUIT#
     if choice == "0":
         print(" Good Bye")
         return 0
-    
+# THIS COMMENT DID NOT EXIST BEFORE
     # RETRIVE DEFINITION #
     if choice == "1":
         term = input(" What would you like to translate?\n term: ")
